@@ -54,7 +54,7 @@ function Contact(){
                     </div>
                 </div>
                     <div className='contact-img-con'>
-                        <img className='contact-img' src={require('./Media/keyboardMouse.jpeg')} alt="example"></img>
+                        <img className='contact-img' src={require('./Media/keyboardMouse.jpg')} alt="example"></img>
                     </div>
                 
             </div>

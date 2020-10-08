@@ -32,32 +32,40 @@
     padding-left: 55%;
     left:80px; 
     top:20px;
+    display: flex;
+    flex-direction: column;
  
+}
+.title-and-logo-con{
+    padding-left: 10px;
 }
 .title-inline{
     
-    display: inline;
+ 
     font-size: 30px;
     color: #000000;
+    display: inline;
+    padding-left: 7px;
+
     
 
 }
 .amz-logo{
     width: 100px;
-    padding-left: 10px;
-    position:absolute;
-    top: 245px;
-    
-    
 
+
+  
 
 }
 .title-sales{
     padding-top: 10px;
+    padding-left: 10px;
 
 }
 .company-title{
-    font-size: 40px;
+    font-size: 55px;
+
+
 }
 .my-company{
 
@@ -99,7 +107,7 @@
 
 }
 .my-company-book-img-con{
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin-left: 5px;
 
@@ -121,7 +129,7 @@
 
 
 .book-stack-img{
-    width:100%;
+    width:70%;
     margin:20px;
 
 }
@@ -241,6 +249,9 @@
 }
 
 @media screen and (max-width: 960px) {
+    .my-company{
+        width: 90%;
+    }
     .my-company-intro-con{
 
      flex-wrap: wrap;

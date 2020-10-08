@@ -15,10 +15,10 @@ function MyCompany() {
         <div className='my-company-background'>
             <div className='image-company-con'>
                 <div className='image-title-con'>
-                    <h1 className='company-title'>Brandts</h1>
-              
-                    <h4 className='title-inline'>On </h4> <img className='amz-logo' src={require('./Media/Amazon_logo.png')} alt="example"></img>
-                    
+                     <div> <h1 className='company-title'>Brandts</h1> <h4 className='title-inline'>On </h4> </div>
+                    <div className='title-and-logo-con'>
+                    <img className='amz-logo' src={require('./Media/Amazon_logo.png')} alt="example"></img> 
+                    </div>
                     <h4 className='title-sales'> Sales to Date: <span className='company-alt-color'>$4</span></h4>
                 </div>
             </div>
