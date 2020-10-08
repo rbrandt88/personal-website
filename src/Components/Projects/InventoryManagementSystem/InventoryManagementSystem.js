@@ -15,7 +15,7 @@ function InventoryManagementSystem() {
     return (
         <>
             <div className='inventory-management-container'>
-                <h1>Inventory/Accounting Management System <a target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88'> <FaGithub className='social-media-icon-home' /> </a> </h1>
+                <h1>Inventory/ Accounting Management System <a target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88'> <FaGithub className='social-media-icon-home' /> </a> </h1>
                 <h3 className='project-tech-text'>Python, Javascript (React), SQL, HTML, CSS </h3>
                 <p><h4 className='project-brief'>Technologies: </h4>  <span className='project-tech-text'>React, PostgreSQL, Pandas, Flask</span></p>
                 <p><h4 className='project-brief'>Brief: </h4>An end to end solution for Amazon inventory and accounting</p>

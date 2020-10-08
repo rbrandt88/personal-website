@@ -237,4 +237,12 @@
     .my-company-intro-inner{
         width: 80%;
     }
+    .cards-container{
+        flex-wrap: wrap;
+
+
+    }
+    .my-company-title-a{
+        font-size: 20px;
+    }
 }

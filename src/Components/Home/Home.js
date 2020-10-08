@@ -81,21 +81,21 @@ function Home() {
                 <div className='about-me-container'> 
                    
                     <div className='profile-image-container'>
-                        <img className='profile-image' src={require('./Media/IMG_3583.jpeg')} alt="Profile Picture"/>
+                        <img className='profile-image' src={require('./Media/IMG_3583.png')} alt="Profile Picture"/>
                      
                     </div>
                     <div className = 'about-me-content'> 
                         <div className='about-me-title'>
                             <h1 >About Me </h1>
                         </div>
-                        <hr></hr>
+                
                         <div className='about-me-text'>
                             <p> Hi, my name is Ryan Brandt. I am currently attending the New York Institute of Technology where I am getting my masters in data science.  
                                 Before this, I attended Iowa State and received my Bachelor’s in Computer Science. Alongside my education, I run an Amazon e-commerce business where I sell used and new books. I source inventory from online marketplaces and vendors and resell them on Amazon for profit. During my time running the company, I created custom software solutions to solve my real-world business problems.These included creating a book finding program, a large-scale image search program, and an inventory and accounting management system. I’ve also worked with a variety of different vendors and partners to expand my operation exponentially each year.  
                                 Over the past few years, I have been very fortunate to have two of my passions, programming and entrepreneurship, come together so nicely. I am looking forward to explore new opportunities in the coming future.
                                 </p>
                         </div>
-                        <hr></hr>
+                  
                         <div className='education-and-skills'>
                             <div className= 'skills-container'>
                                     <h2 className= 'skills-title'>Skills</h2>
@@ -142,7 +142,7 @@ function Home() {
                     <div className='projects-container'> 
                         <div className='project-container-title'>
                             <h1>Projects</h1>
-                            <div className='vertical-line'></div>
+                            
                         </div>
                         <div className='project-cards-container'> 
                          
@@ -184,7 +184,7 @@ function Home() {
                                     <FaGamepad className='project-icon'/> 
                                     </div>
                                     <div className='project-text'>
-                                        <h2>Rouge-like Console Game</h2>
+                                        <h2 className='project-title'>Rouge-like Console Game</h2>
                                         <h5>-C/C++</h5>
                                     </div>
                                     

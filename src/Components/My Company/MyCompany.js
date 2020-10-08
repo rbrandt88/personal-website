@@ -81,7 +81,7 @@ function MyCompany() {
             
                     </div>
                     <div className='my-company-book-img-con'>
-                        <img className='book-stack-img' src={require('./Media/bookStack.JPG')} alt="example"></img>
+                        <img className='book-stack-img' src={require('./Media/bookStack.png')} alt="example"></img>
                     
                     </div>
                    
@@ -167,11 +167,12 @@ function MyCompany() {
                  
                 <hr></hr>
                 <p className='my-company-title-a'>Books Books Books</p>
+                
                 <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.40.02 PM.png')} alt="example"></img>
                 <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.42.32 PM.png')} alt="example"></img>
-                <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.43.08 PM.png')} alt="example"></img>
-          
-                <img className='book-image' src={require('./Media/IMG_2779.jpeg')} alt="example"></img>
+                <img className='book-image' src={require('./Media/lots_of_Books.png')} alt="example"></img>
+                
+                {/*<img className='book-image' src={require('./Media/IMG_2779.jpeg')} alt="example"></img>*/}
              
 
 

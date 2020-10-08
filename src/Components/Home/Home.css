@@ -41,6 +41,10 @@
   
 }
 .about-me-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     
 
 
@@ -161,7 +165,7 @@
 .projects-container{
     width: 75%;
     margin: auto;
-
+    display: flex;
     margin-top: 25px;
     
    
@@ -382,8 +386,18 @@
     }
     .fun-image{
 
-        width: 400px;
+        width: 100%;
     
+    }
+    .project-title{
+        font-size: 20px;
+    }
+    .projects-container{
+        flex-wrap: wrap;
+    }
+    .entrepreneur-content{
+        margin-left:20px;
+        width: 100%;
     }
 
 

@@ -43,16 +43,16 @@ function RougeLikeGame() {
                 </ul>
                 <hr></hr>
                 <h2>Examples</h2>
-                <img className='project-image' src={require('./Media/map.PNG')}alt="Map"/>
+                <img className='project-image' src={require('./Media/map.jpg')}alt="Map"/>
                 <p>Maps are randomly generated. The player is represented as the @ symbol and the monsters are colored letters. 
                     The dots are rooms and the #s are tunnels connecting them. 
                     The random symbols are power ups and items. </p>
-                <img className='project-image' src={require('./Media/monstersFollow.PNG')}alt="Monsters"/>
+                <img className='project-image' src={require('./Media/monstersFollow.jpg')}alt="Monsters"/>
                 <p>This is a typical game view. The player can only see the imediate area around him; however, they can still remember the previous areas. 
                     Here, the player can be seen running from the monsters, C,P, and zz. He is exploring the dungeon and has collected some items in his inventory</p>
-                <img className='project-image' src={require('./Media/wearItems.PNG')}alt="Dead"/>
+                <img className='project-image' src={require('./Media/wearItems.jpg')}alt="Dead"/>
                 <p> Here is a view of the player's inventory. You can choose to wear, swap, or equip items.</p>
-                <img className='project-image' src={require('./Media/Dead.PNG')}alt="Dead"/>
+                <img className='project-image' src={require('./Media/Dead.jpg')}alt="Dead"/>
                 <p>Dead. If you fail to pick up enough power ups, you will be too weak for the monsters. Lucky items like swords are rare to find but will help you win.   </p>
                
                 
