@@ -48,7 +48,7 @@ function MyCompany() {
                             <div className='icon-description-card'>
                                 <FaUmbrellaBeach className='r-icon'/>
                                 <p className='my-company-title-a'>Relax</p>
-                                <p className= 'description'>Let <a  target="_blank" rel="noopener noreferrer" href='https://sell.amazon.com/start.html?ld=SEUSSOAGOOG-B12118-D&tag=googhydr-20&hvadid=438282287465&hvpos=&hvexid=&hvnetw=g&hvrand=15269178234941666529&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004331&hvtargid=kwd-317927384615&ref=pd_sl_5tfx8zcurq_e'> Amazon FBA </a>
+                                <p className= 'description'>Let <a className='amz-link' target="_blank" rel="noopener noreferrer" href='https://sell.amazon.com/start.html?ld=SEUSSOAGOOG-B12118-D&tag=googhydr-20&hvadid=438282287465&hvpos=&hvexid=&hvnetw=g&hvrand=15269178234941666529&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004331&hvtargid=kwd-317927384615&ref=pd_sl_5tfx8zcurq_e'> Amazon FBA </a>
                                     take care of storage, shipping, and returns 
                                 </p>
                             </div> 
@@ -60,11 +60,12 @@ function MyCompany() {
                     <div className='my-company-intro-inner'>
 
 
-                    
+                    <div className='my-company-intro-inner-content'>
                     <p className='my-company-title-a'>Who we are</p>
                     <p>Brandts is guided by four principles: customer obsession, authenticity, commitment to operational excellence, and insist on the highest standards. 
                         These priciples are inherited from Amazon and relect our everyday work. </p>
-                
+                        </div>
+                    <div className='my-company-intro-inner-content'>
                     <p className='my-company-title-a'>Everyday Activities</p>
                     <ul>
                         <li>Buy product</li>
@@ -76,14 +77,15 @@ function MyCompany() {
                         <li>Reprice inventory</li>
                         <li>Explore new sourcing outlets</li>
                     </ul>
+                    </div>
                     
              
             
                     </div>
-                    <div className='my-company-book-img-con'>
+                    {/*<div className='my-company-book-img-con'>
                         <img className='book-stack-img' src={require('./Media/bookStack.png')} alt="example"></img>
                     
-                    </div>
+                     </div>*/}
                    
                 </div>
                 <hr></hr>

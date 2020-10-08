@@ -24,4 +24,5 @@
     width: 90%;
     object-fit: cover;
     margin: 10px;
+    max-width: 750px;
 }
