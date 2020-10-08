@@ -190,8 +190,8 @@
 }
 .project-container-title{
     margin: 10px;
-    width: 28%;
-    float:left;
+    width: 25%;
+
     
 
     
@@ -209,7 +209,7 @@
     align-items: center;
     background: #fff;
     background-color: #F5F5F5;
-    padding: 25px;
+ 
     margin: 5px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
@@ -218,7 +218,7 @@
     display: flex;
     border-left: 5px solid;
     /*    border-left: 3px solid transparent;*/
-    height: 200px;
+    height: 180px;
     text-decoration: none;
     color: #131313;
    
@@ -248,21 +248,21 @@
 .project-icon{
    
   
-    font-size: 500%;
-
+    font-size: 700%;
+    margin: 10px;
     color: rgb(6, 141, 252);
     /*color: #000000;*/
 
 }
 .project-icon-con{
-    margin-right: 20px;
-    width: 20%;
+    margin:20px;
+
 }
 .project-text{
-    width: 90%;
+
     font-size: 17px;
     color: #000000;
-    margin-left: 20px;
+    margin-left: 5px;
     text-decoration: none;
 
 
@@ -364,6 +364,7 @@
 
     .about-me-container{
         flex-wrap: wrap;
+        width: 85%;
     }
     .entrepreneur-container{
         flex-wrap: wrap;
@@ -393,10 +394,14 @@
     }
     .projects-container{
         flex-wrap: wrap;
+        width:85%;
     }
     .entrepreneur-content{
         margin-left:20px;
         width: 100%;
+    }
+    .entrepreneur-background{
+        width:85%;
     }
 
 
