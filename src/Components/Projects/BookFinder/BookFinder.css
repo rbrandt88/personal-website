@@ -21,8 +21,7 @@
 }
 
 .example-image{
-    width: 80%;
+    width: 90%;
     object-fit: cover;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 10px;
 }

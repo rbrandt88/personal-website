@@ -99,7 +99,9 @@
 
 }
 .my-company-book-img-con{
-    width: 50%;
+    width: 80%;
+    text-align: center;
+    margin-left: 5px;
 
 
 }
@@ -119,7 +121,7 @@
 
 
 .book-stack-img{
-    height: 350px;
+    width:100%;
     margin:20px;
 
 }
@@ -182,6 +184,9 @@
 
 
 }
+.my-company-desc{
+    text-align: center;
+}
 .personal-accom{
     margin-top: 20px;
     margin-bottom: 30px;
@@ -200,8 +205,8 @@
 }
 
 .icon-description-card {
-    width: 280px;
-    height: 300px;
+    width: 80%;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -227,22 +232,45 @@
   
     /*text-align: center;*/
 }
+.images-books-con{
+    text-align: center;
+
+    
+  
+
+}
 
 @media screen and (max-width: 960px) {
     .my-company-intro-con{
 
      flex-wrap: wrap;
-     flex-direction: column;
+  
+     width: 100%;
     }
     .my-company-intro-inner{
-        width: 80%;
+        text-align: center;
+     
+        width: 90%;
+   
+       
+    
+    }
+    .my-company-intro-inner ul{
+        list-style-type: none;
     }
     .cards-container{
         flex-wrap: wrap;
+        text-align: center;
+
 
 
     }
     .my-company-title-a{
         font-size: 20px;
+        text-align: center;
     }
+    .intro{
+        font-size: 25px;
+    }
+    
 }

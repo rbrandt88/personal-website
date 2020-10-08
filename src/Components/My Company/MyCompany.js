@@ -88,7 +88,7 @@ function MyCompany() {
                 </div>
                 <hr></hr>
                 <p className='my-company-title-a'>Software Solutions</p>
-                <p>Custom software solutions give Brandts a competative advantage and optimize operational management</p>
+                <p className='my-company-desc'>Custom software solutions give Brandts a competative advantage and optimize operational management</p>
                 <div className='software-solutions'>
 
                             <Link to='/book-finder'  className='project-link'> 
@@ -166,6 +166,7 @@ function MyCompany() {
                 </div>
                  
                 <hr></hr>
+                <div className='images-books-con'>
                 <p className='my-company-title-a'>Books Books Books</p>
                 
                 <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.40.02 PM.png')} alt="example"></img>
@@ -175,8 +176,8 @@ function MyCompany() {
                 {/*<img className='book-image' src={require('./Media/IMG_2779.jpeg')} alt="example"></img>*/}
              
 
-
                 </div>
+            </div>
                
            
              
