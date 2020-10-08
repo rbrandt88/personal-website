@@ -1,0 +1,28 @@
+.book-finder-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.book-finder-container ul{
+    margin-left: 20px;
+}
+.book-finder-container hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.book-finder-container h2,h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.project-tech-text{
+    color:  #0099d9;
+}
+
+.example-image{
+    width: 500px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

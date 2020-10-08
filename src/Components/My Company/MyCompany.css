@@ -1,0 +1,240 @@
+
+
+.my-company-background{
+    /*background: #F0FFFF;*/
+    background-color: #F5F5F5;
+
+}
+.image-company-con{
+ 
+    /*background-image: url("./Media/thomas-habr-6NmnrAJPq7M-unsplash.jpg");*/
+    background-image: url('./Media/computer_books.jpg');
+    height: 540px;
+    
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+
+ 
+    background-size: cover;
+    color: #fff;
+
+
+   
+
+      
+}
+.image-title-con{
+
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 55%;
+    left:80px; 
+    top:20px;
+ 
+}
+.title-inline{
+    
+    display: inline;
+    font-size: 30px;
+    color: #000000;
+    
+
+}
+.amz-logo{
+    width: 100px;
+    padding-left: 10px;
+    position:absolute;
+    top: 245px;
+    
+    
+
+
+}
+.title-sales{
+    padding-top: 10px;
+
+}
+.company-title{
+    font-size: 40px;
+}
+.my-company{
+
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+    color: #575757;
+    line-height: 1.5;
+ 
+
+
+}
+.my-company-center{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    color: #575757;
+    margin-bottom: 30px;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+
+
+}
+.my-company-intro-inner{
+    width: 40%;
+}
+.my-company-title-a{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #575757;
+    margin-bottom: 10px;
+  
+
+}
+.my-company-book-img-con{
+    width: 50%;
+
+
+}
+.company-alt-color{
+    color: #000000;
+}
+
+.my-company-intro-con{
+   
+    color: #575757;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.book-stack-img{
+    height: 350px;
+    margin:20px;
+
+}
+.my-company h2{
+    color: #3b3b3b;
+
+}
+.my-company ul{
+    margin-left: 10px;
+ 
+}
+.my-company li{
+    margin: 5px;
+ 
+
+
+
+}
+
+.my-company hr{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+.white-con{
+    background-color: rgb(255, 255, 255);
+    
+}
+.white-con-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.my-company-link{
+    text-decoration: none;
+    color: #575757;
+
+}
+.my-company-link:hover{
+    color: rgb(6, 141, 252);
+}
+
+
+.software-solutions{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.book-image{
+
+    width: 250px;
+    object-fit: cover;
+    margin: 5px;
+
+    height: 300px;
+
+
+
+}
+.personal-accom{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.intro{
+   
+
+}
+.cards-container {
+    display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    justify-content: center;
+   
+}
+
+.icon-description-card {
+    width: 280px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #575757;
+
+    border-radius: 5px;
+    padding: 20px;
+   
+    margin: 15px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+}
+
+.description{
+    
+    
+
+}
+
+.r-icon {
+    font-size: 100px;
+    color: rgb(75, 75, 75);
+  
+    /*text-align: center;*/
+}
+
+@media screen and (max-width: 960px) {
+    .my-company-intro-con{
+
+     flex-wrap: wrap;
+     flex-direction: column;
+    }
+    .my-company-intro-inner{
+        width: 80%;
+    }
+}

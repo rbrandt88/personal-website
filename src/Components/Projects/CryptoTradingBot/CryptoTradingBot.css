@@ -1,0 +1,27 @@
+
+
+
+.crypto-trading-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.crypto-trading-container hr,h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.project-tech{
+    color:  #0099d9;
+
+}
+.crypto-trading-container ul{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+
+}

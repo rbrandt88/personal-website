@@ -1,0 +1,21 @@
+
+
+.inventory-management-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inventory-management-container ul{
+    margin-left: 20px;
+}
+.inventory-management-container hr{
+    margin-top: 10px;
+}
+.project-tech-text{
+    color:  #0099d9;
+}
+
+.project-brief{
+    display: inline;
+}

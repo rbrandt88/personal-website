@@ -1,0 +1,392 @@
+
+.home-container{
+    background-color: #F5F5F5;
+    color: #242424;
+  
+
+}
+.home-main-image{
+    /*background-image: url("./Media/thomas-habr-6NmnrAJPq7M-unsplash.jpg");*/
+    background-image: url("./Media/lukasz-szmigiel-a47qPRbHx7g-unsplash.jpg");
+    height: 550px;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+
+  
+}
+.home-main-text{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+
+}
+
+.about-me-container{
+    display: flex;
+ 
+    width: 73%;
+    margin: auto;
+    margin-top: 35px;
+    padding-bottom: 5px;
+
+}
+.about-me-title{
+    margin-bottom: 10px;
+  
+}
+.about-me-content{
+    
+
+
+
+}
+.about-me-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profile-image-container{
+    width: 40%;
+ 
+}
+
+.profile-image{
+    width: 250px;
+    
+    margin-right: 20px;
+    padding: 5px;
+    
+    
+
+}
+.education-title{
+
+  
+    
+}
+.school-name{
+    color:  #0099d9;
+
+}
+.education-container{
+  
+  
+   
+
+}
+.education-container-school{
+  
+
+}
+.education-and-skills{
+    display: flex;
+    margin: 10px;
+
+}
+.courses-link{
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+
+}
+.courses-dropdown{
+    
+   
+    margin-top: 10px;
+}
+.courses-link:hover{
+    border-bottom: 3px solid #0099d9;
+}
+.courses-container{
+    margin: 10px;
+ 
+}
+.courses-list{
+    padding: 10px;
+}
+.programming-language{
+    color:  #0099d9;
+}
+.entrepreneur-background{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+.entrepreneur-container{
+    /*#E2A5C9 pinkish*/
+    /*#8BC6E6 lightblue background: #FDD8CB;
+     background: rgb(229, 246, 255);
+     
+     background: rgb(255, 235, 228);
+      background: rgb(40, 44, 52);*/
+    
+     
+      margin-top: 25px;
+      display: flex;
+
+        
+
+      
+}
+.entrepreneur-title{
+
+    width: 23%;
+    margin-right: 20px;
+
+
+}
+.entrepreneur-content{
+    margin-left: 80px;
+    width: 75%;
+}
+.entrepeneur-description{
+    margin-top: 10px;
+}
+.enrepeneur-list-el{
+    margin: 10px;
+    
+}
+.entrepeneur-list{
+    padding: 10px;
+ 
+}
+.sales-value{
+    color:  #0099d9;
+}
+.projects-container{
+    width: 75%;
+    margin: auto;
+
+    margin-top: 25px;
+    
+   
+} 
+.project-cards-container{
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+ 
+
+}
+
+.projects-background{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+    margin-top: 40px;
+  
+
+
+}
+.project-container-title{
+    margin: 10px;
+    width: 28%;
+    float:left;
+    
+
+    
+}
+.vertical-line{
+    border-left: 2px dotted;
+    height: 900px;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.project-card{
+    
+
+    align-items: center;
+    background: #fff;
+    background-color: #F5F5F5;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease-out;
+    /*justify-content: left;*/
+    display: flex;
+    border-left: 5px solid;
+    /*    border-left: 3px solid transparent;*/
+    height: 200px;
+    text-decoration: none;
+    color: #131313;
+   
+   
+
+}
+.project-card-blue {
+    background: rgb(22, 149, 253);
+    background-image: linear-gradient( rgb(252, 237, 245), rgb(137, 178, 216));
+}
+.project-card-pink {
+    background-image: linear-gradient( rgb(252, 237, 245), #FDD8CB);
+}
+
+.project-card-gray {
+    background: rgb(243, 243, 243);
+    /*background-image: linear-gradient( rgb(255, 255, 255), rgb(247, 247, 247));*/
+}
+
+.project-card-orange {
+    background-image: linear-gradient( rgb(252, 237, 245), rgb(173, 173, 173));
+}
+
+.project-card-red {
+    background-image: linear-gradient( rgb(252, 237, 245), rgb(255, 74, 74));
+}
+.project-icon{
+   
+  
+    font-size: 500%;
+
+    color: rgb(6, 141, 252);
+    /*color: #000000;*/
+
+}
+.project-icon-con{
+    margin-right: 20px;
+    width: 20%;
+}
+.project-text{
+    width: 50%;
+    font-size: 17px;
+    color: #000000;
+    margin-left: 20px;
+    text-decoration: none;
+
+
+
+}
+.project-link{
+    text-decoration: none;
+    color: #000000;
+}
+.project-card:hover{
+    transition: all 0.1s ease-out;
+    border-left: 5px solid #0099d9;
+    background-color: rgb(248, 248, 248);
+
+  
+}
+.project-card :hover .project-text{
+    display: block;
+    margin: 20px; 
+  
+
+}
+
+.project-title{
+    text-decoration: none;
+}
+.fun-background{
+    background-color: #fff;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-top: 30px;
+ 
+}
+.fun-container{
+
+    /*background-image: linear-gradient( rgb(252, 237, 245), #FDD8CB);*/
+
+    width: 75%;
+    margin: auto;
+    display: flex;
+
+
+   
+    
+}
+
+.fun-list{
+    
+    width: 66.6%;
+    
+}
+.fun-title{
+    float:left;
+    width: 33.3%;
+
+}
+.fun-image{
+
+    width: 600px;
+
+}
+
+
+.social-media-container{
+
+}
+.social-media-icon-home{
+    color: #242424;
+    font-size: 30px;
+
+}
+.social-media-icon-home:hover{
+    color: rgb(90, 90, 90);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);*/
+}
+.skills-container{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+
+}
+.skills-title{
+
+
+
+}
+.skills-content{
+    line-height: 1.4;
+    padding-bottom: 10px;
+
+
+}
+
+.skils-content-text{
+   
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .about-me-container{
+        flex-wrap: wrap;
+    }
+    .entrepreneur-container{
+        flex-wrap: wrap;
+    }
+    .entrepreneur-title{
+        width:100%;
+        text-align: left;
+    }
+    .fun-container{
+        flex-wrap: wrap;
+
+    }
+    .fun-list{
+        width: 80%;
+    }
+    .fun-title{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .fun-image{
+
+        width: 400px;
+    
+    }
+
+
+}
+
+

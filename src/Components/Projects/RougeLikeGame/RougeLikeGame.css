@@ -1,0 +1,32 @@
+
+
+.rouge-like-game-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rouge-like-game-container p,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rouge-like-game-container ul{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+
+}
+.rouge-like-game-container li{
+
+}
+.project-tech{
+    color:  #0099d9;
+
+}
+.project-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:600px;
+}
