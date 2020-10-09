@@ -15,6 +15,7 @@ import CryptoTradingBot from './Components/Projects/CryptoTradingBot/CryptoTradi
 import MyCompany from './Components/My Company/MyCompany';
 import SignIn from './Components/SignIn/SignIn';
 import Contact from './Components/Contact/Contact';
+import Resume from './Components/Resume/Resume';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -30,6 +31,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/projects' component={Projects} />
+        <Route path='/resume' component={Resume} />
 
         <Route path='/large-scale-image-search' component={LargeScaleImageSearch} /> 
         <Route path='/book-finder' component={BookFinder} /> 

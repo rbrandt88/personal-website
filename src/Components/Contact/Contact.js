@@ -22,6 +22,7 @@ function Contact(){
         window.scrollTo(0, 0)
       }, [])
     return (
+        <>
         <div className='contact-container'>
 
             <h1>Contact</h1>
@@ -61,8 +62,9 @@ function Contact(){
             
     
         </div>
+    </>
 
-    )
+    );
 }
 
 export default Contact;

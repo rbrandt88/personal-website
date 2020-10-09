@@ -95,8 +95,9 @@ function MyCompany() {
 
                             <Link to='/book-finder'  className='project-link'> 
                                 <div className='project-card project-card-gray'>
-                             
+                                        <div className='project-icon-con'>
                                         <BsSearch className='project-icon'/>
+                                        </div>
                                         <div className='project-text'>
                                             <p className='my-company-title-a'>Book Finder</p>
                                          
@@ -111,7 +112,9 @@ function MyCompany() {
 
                             <Link to='/large-scale-image-search' className='project-link'> 
                                 <div className='project-card project-card-gray'>
-                                    <BsImages className='project-icon'/>
+                                    <div className='project-icon-con'>
+                                        <BsImages className='project-icon'/>
+                                    </div>
                                     <div className='project-text'>
                                         <p className='my-company-title-a'>Large Scale Image Similarity Search</p>
                                        
@@ -123,7 +126,9 @@ function MyCompany() {
                             </Link>
                             <Link to='/inventory-management-system'  className='project-link'>
                                 <div className='project-card project-card-gray'>
-                                    <RiBarcodeBoxLine className='project-icon'/>
+                                    <div className='project-icon-con'>
+                                        <RiBarcodeBoxLine className='project-icon'/>
+                                    </div>
                                     <div className='project-text'>
                                         <p className='my-company-title-a'>Inventory/ Accounting Management System</p>
                                     
@@ -170,11 +175,12 @@ function MyCompany() {
                 <hr></hr>
                 <div className='images-books-con'>
                 <p className='my-company-title-a'>Books Books Books</p>
-                
-                <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.40.02 PM.png')} alt="example"></img>
+
+
+                {/*<img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.40.02 PM.png')} alt="example"></img>
                 <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.42.32 PM.png')} alt="example"></img>
                 <img className='book-image' src={require('./Media/lots_of_Books.png')} alt="example"></img>
-                
+                    */}
                 {/*<img className='book-image' src={require('./Media/IMG_2779.jpeg')} alt="example"></img>*/}
              
 
