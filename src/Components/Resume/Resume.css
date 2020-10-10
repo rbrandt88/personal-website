@@ -5,5 +5,9 @@
     margin:auto;
     display: flex;
     justify-content: center;
+    padding: 20px;
 
+}
+.resume-img{
+    width: 650px;
 }

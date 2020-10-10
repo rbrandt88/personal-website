@@ -16,13 +16,15 @@ function Resume() {
         <>    
    
         <div className='pdf-container'>
-            <Document
-                file={"RyanBrandtResume.pdf"}
-                
-                >
-                <Page pageNumber={1} width={700} />
-            </Document>
             
+            <embed src="RyanBrandtResume.pdf" width="800px" height="1200px" />
+           { /*<Document
+                file={"RyanBrandtResume.pdf"}
+                <img className='resume-img' src='Resume.png' alt="Resume"></img>
+                >
+                <Page pageNumber={1} width={600} />
+            </Document>*/
+           }
   
             
         </div>

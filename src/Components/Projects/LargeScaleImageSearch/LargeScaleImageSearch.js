@@ -120,7 +120,7 @@ function LargeScaleImageSearch() {
             <div className='large-scale-container'>
                 <div className='query-part'>
                     <div className='query-intro'>
-                    <h1>Large Scale Image Similarity Search  <a target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88'> <FaGithub className='social-media-icon-home' /> </a></h1>
+                    <h1>Large Scale Image Similarity Search  <a target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88/large-scale-image-similarity-search'> <FaGithub className='social-media-icon-home' /> </a></h1>
 
                     <h3 className='project-tech-text' >Python, Javascript (React), HTML, CSS</h3>
                     <p><h4 className='project-brief'>Technologies:</h4> <span className='project-tech-text'>OpenCv, Scikit-Learn, Numpy, Faiss, Flask</span></p>
