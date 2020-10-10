@@ -14,9 +14,10 @@ function Resume() {
 
     return (
         <>    
-   
+
         <div className='pdf-container'>
-            <iframe src="https://docs.google.com/viewer?srcid=12nJYXBP2xZz3HEgv3sAKfLmrcWvRzeTQ&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="650px" height="1000px"></iframe>
+       
+            <iframe src="https://docs.google.com/viewer?srcid=12nJYXBP2xZz3HEgv3sAKfLmrcWvRzeTQ&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="650px" height="100%"></iframe>
             
             
       

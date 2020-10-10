@@ -6,8 +6,20 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    height:850px;
 
 }
 .resume-img{
     width: 650px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .pdf-container{
+        height:400px;
+      
+     
+    }
+
+
 }
