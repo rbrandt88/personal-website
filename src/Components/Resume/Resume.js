@@ -6,8 +6,6 @@ import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
-
-
 function Resume() {
 
     useEffect(() => {
@@ -18,12 +16,12 @@ function Resume() {
         <>    
    
         <div className='pdf-container'>
-        <Document
-            file={"RyanBrandtResume.pdf"}
-            
-            >
-            <Page pageNumber={1} width={600} />
-          </Document>
+            <Document
+                file={"RyanBrandtResume.pdf"}
+                
+                >
+                <Page pageNumber={1} width={700} />
+            </Document>
             
   
             

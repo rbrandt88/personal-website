@@ -19,7 +19,7 @@ function MyCompany() {
                     <div className='title-and-logo-con'>
                     <img className='amz-logo' src={require('./Media/Amazon_logo.png')} alt="example"></img> 
                     </div>
-                    <h4 className='title-sales'> Sales to Date: <span className='company-alt-color'>$4</span></h4>
+                    <h4 className='title-sales'> Sales to Date: <span className='company-alt-color'>$530,000</span></h4>
                 </div>
             </div>
             <div className="my-company">
@@ -143,7 +143,7 @@ function MyCompany() {
                 <div className='personal-accom'>
                     <p className='my-company-title-a'>Personal Accomplishments</p>
                         <ul>
-                            <li>Sales Value</li>
+                            <li>Over $530,000 in sales</li>
                             <li>Eliminated hundreds of manual searching hours by developing a book finding
                                     program that searches online marketplaces
                             </li>
@@ -175,12 +175,13 @@ function MyCompany() {
                 <hr></hr>
                 <div className='images-books-con'>
                 <p className='my-company-title-a'>Books Books Books</p>
+                <p className='my-company-desc'>Some pictures of books in my room before being shipped off to Amazon </p>
+               
 
-
-                {/*<img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.40.02 PM.png')} alt="example"></img>
+                <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.40.02 PM.png')} alt="example"></img>
                 <img className='book-image' src={require('./Media/Screen Shot 2020-10-03 at 10.42.32 PM.png')} alt="example"></img>
                 <img className='book-image' src={require('./Media/lots_of_Books.png')} alt="example"></img>
-                    */}
+                    
                 {/*<img className='book-image' src={require('./Media/IMG_2779.jpeg')} alt="example"></img>*/}
              
 

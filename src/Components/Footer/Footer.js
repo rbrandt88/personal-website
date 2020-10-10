@@ -69,7 +69,7 @@ function Footer(){
                     <p className='footer-title'>Other Links</p>
                     <a target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88' title="Github" > <FaGithub className='social-media-icon-footer' /> </a>
                     <a title="Linked In" target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/ryan-brandt-profile/'> <FaLinkedin className='social-media-icon-footer' /> </a>
-                    <a title="Resume"> <FaClipboard className='social-media-icon-footer' /> </a>
+                    <Link to='/resume'><a title="Resume"> <FaClipboard className='social-media-icon-footer' /> </a></Link>
                     <a href="mailto:rbrandt@nyit.edu"> <GrMail className='social-media-icon-footer'/> </a>
                 </div>
         

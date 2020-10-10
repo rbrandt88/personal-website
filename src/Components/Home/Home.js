@@ -64,15 +64,15 @@ function Home() {
                 <div className='home-main-image'>
                     <div className='home-main-text'>
                         <h1>Hi, I'm Ryan Brandt</h1>
-                        <h4> Software Engineer, Entrepreneur, &amp; Data Science Enthusiast </h4>
+                        <h4> Software Engineer, Entrepreneur &amp; Data Science Enthusiast </h4>
                         <Link to="contact" className="btn-link">
                             <Button buttonStyle='btn--outline'>Contact Me</Button>
                         </Link>
                         <div className='social-media-container'>
-                            <a target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88' title="Github" > <FaGithub className='social-media-icon-home' /> </a>
-                            <a title="Linked In" target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/ryan-brandt-profile/'> <FaLinkedin className='social-media-icon-home' /> </a>
-                            <a title="Resume"> <FaClipboard className='social-media-icon-home' /> </a>
-                            <a href="mailto:rbrandt@nyit.edu"> <GrMail className='social-media-icon-home'/> </a>
+                            <a className= 'no-decoration' target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88' title="Github" > <FaGithub className='social-media-icon-home' /> </a>
+                            <a className= 'no-decoration' title="Linked In" target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/ryan-brandt-profile/'> <FaLinkedin className='social-media-icon-home' /> </a>
+                            <Link className= 'no-decoration' to='/resume'> <a title="Resume"> <FaClipboard className='social-media-icon-home' /> </a>    </Link>
+                            <a className='no-decoration' href="mailto:rbrandt@nyit.edu"> <GrMail className='social-media-icon-home'/> </a>
                         </div>
                     </div>
                     
@@ -90,9 +90,9 @@ function Home() {
                         </div>
                 
                         <div className='about-me-text'>
-                            <p> Hi, my name is Ryan Brandt. I am currently attending the New York Institute of Technology where I am getting my masters in data science.  
-                                Before this, I attended Iowa State and received my Bachelor’s in Computer Science. Alongside my education, I run an Amazon e-commerce business where I sell used and new books. I source inventory from online marketplaces and vendors and resell them on Amazon for profit. During my time running the company, I created custom software solutions to solve my real-world business problems.These included creating a book finding program, a large-scale image search program, and an inventory and accounting management system. I’ve also worked with a variety of different vendors and partners to expand my operation exponentially each year.  
-                                Over the past few years, I have been very fortunate to have two of my passions, programming and entrepreneurship, come together so nicely. I am looking forward to explore new opportunities in the coming future.
+                            <p> Hi, my name is Ryan Brandt. I am currently attending the New York Institute of Technology where I am getting my Masters degree in data science.  
+                                Before this, I attended Iowa State and received my Bachelor’s degree in Computer Science. Alongside my education, I run an Amazon e-commerce business where I sell used and new books. I source inventory from online marketplaces and vendors and resell them on Amazon. During the time running my company, I created custom software solutions to solve my real-world business problems. These included creating a book finding program, a large-scale image search program and an inventory and accounting management system. I’ve also worked with a variety of different vendors and partners to expand my operation exponentially each year.  
+                                Over the past few years, I have been very fortunate to have two of my passions, programming and entrepreneurship, come together so nicely. I am looking forward to exploring new opportunities in the coming future.
                                 </p>
                         </div>
                   
@@ -104,11 +104,11 @@ function Home() {
 
                                         <p className='school-name'>Python, Javascript, Java, C/C++, SQL</p>
 
-                                        <h3 className='skils-content-text'>Full Stack</h3>
+                                        <h3 className='skils-content-text'>Full Stack Technologies</h3>
                                         <p className='school-name'> React, HTML, CSS, Flask, Elasticsearch, Postgres SQL</p>
                                         <h3 className='skils-content-text'>Data Science</h3>
 
-                                        <p className='school-name'>Numpy, Pandas, Matplotlib, Scikit-Learn, OpenCv, TenserFlow, Jupyter Lab</p>
+                                        <p className='school-name'>Numpy, Pandas, Matplotlib, Scikit-Learn, OpenCV, TenserFlow, Jupyter Lab</p>
 
                                     </div>
                                 </div>
@@ -116,12 +116,14 @@ function Home() {
                                 <h2 className='education-title'>Education </h2>
                                 <div className='education-container-school'> 
                             
-                                    <h4> <FaGraduationCap/> Iowa State University Graduated: Dec 2019 | Ames, IA</h4>
+                                    <h3> <FaGraduationCap/> Iowa State University| Ames, IA</h3>
+                                    <h4>Graduated: Dec 2019 </h4>
                                     <p className='school-name'>BS in Computer Science</p>
                                 </div>
                                 <div className='education-container-school'> 
                                     
-                                    <h4 > <FaGraduationCap/> New York Institute of Technology Student: Current</h4>
+                                    <h3 > <FaGraduationCap/> New York Institute of Technology| New York, NY </h3>
+                                    <h4>Graduating: fall 2021</h4>
                                     <p className='school-name'>MS in Data Science</p>
                                 </div>
                                 <div className='courses-dropdown'>
@@ -154,7 +156,7 @@ function Home() {
                                         </div>
                                         <div className='project-text'>
                                             <h2 className='project-title'>Book Finder</h2>
-                                            <h5>-Python, JS, HTML,CSS</h5>
+                                            <h5>Python, JS, HTML,CSS</h5>
                                         </div>
                             
                                    
@@ -171,7 +173,7 @@ function Home() {
                                     <div className='project-text'>
                                         <h2 className='project-title'>Large Scale Image Similarity Search </h2>
                                      
-                                        <h5>-Python</h5>
+                                        <h5>Python</h5>
                                     </div>
                                 
                                     
@@ -185,7 +187,7 @@ function Home() {
                                     </div>
                                     <div className='project-text'>
                                         <h2 className='project-title'>Rouge-like Console Game</h2>
-                                        <h5>-C/C++</h5>
+                                        <h5>C/C++</h5>
                                     </div>
                                     
                                 </div>
@@ -198,7 +200,7 @@ function Home() {
                                     </div>
                                     <div className='project-text'>
                                         <h2 className='project-title'>Cryptocurrency Trading Bot</h2>
-                                        <h5>-Python</h5>
+                                        <h5>Python</h5>
                                     </div>
                                     
                                 </div>
@@ -210,7 +212,7 @@ function Home() {
                                     </div>
                                     <div className='project-text'>
                                         <h2 className='project-title'>Inventory/ Accounting Management System</h2>
-                                        <h5>-Python, SQL</h5>
+                                        <h5>Python, SQL</h5>
                                     </div>
                                 
                                 </div>
@@ -227,7 +229,7 @@ function Home() {
                         <div className= 'entrepreneur-content'>
                             <h2>Brandts</h2>
                             <h4>August 2017 - Present </h4>
-                            <h4>Sales To Date: <span className='sales-value'> $3</span></h4>
+                            <h4>Sales To Date: <span className='sales-value'> $530,000</span></h4>
                             <hr></hr>
                             <div className='entrepeneur-description'>
                                 <p>Amazon e-commerce business that sells used/new books. 

@@ -197,11 +197,11 @@
 
 .book-image{
 
-    width: 250px;
+    width: 200px;
     object-fit: cover;
-    margin: 5px;
+    margin: 10px;
 
-    height: 300px;
+    height: 350px;
 
 
 
@@ -298,7 +298,7 @@
 
     }
     .my-company-title-a{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
     .intro{

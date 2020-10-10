@@ -42,6 +42,11 @@ function Contact(){
                     <h2>Email</h2>
                     <p><a href="mailto:rbrandt@nyit.edu">rbrandt@nyit.edu</a></p>
                     </div>
+
+                    <div>
+                        <h2>Phone</h2>
+                        <p>630-464-5188</p>
+                    </div>
                  
                 
                     <div>
@@ -49,7 +54,7 @@ function Contact(){
                         <div>
                             <a target="_blank" rel="noopener noreferrer" href='https://github.com/rbrandt88' title="Github" > <FaGithub className='social-media-icon-home' /> </a>
                             <a title="Linked In" target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/ryan-brandt-profile/'> <FaLinkedin className='social-media-icon-home' /> </a>
-                            <a title="Resume"> <FaClipboard className='social-media-icon-home' /> </a>
+                            <Link className= 'no-decoration' to='/resume'> <a title="Resume"> <FaClipboard className='social-media-icon-home' /> </a> </Link>
                             <a href="mailto:rbrandt@nyit.edu"> <GrMail className='social-media-icon-home'/> </a>
                         </div>
                     </div>

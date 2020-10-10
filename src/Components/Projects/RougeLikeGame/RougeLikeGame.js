@@ -49,7 +49,7 @@ function RougeLikeGame() {
                     The random symbols are power ups and items. </p>
                 <img className='project-image' src={require('./Media/monstersFollow.jpg')}alt="Monsters"/>
                 <p>This is a typical game view. The player can only see the imediate area around him; however, they can still remember the previous areas. 
-                    Here, the player can be seen running from the monsters, C,P, and zz. He is exploring the dungeon and has collected some items in his inventory</p>
+                    Here, the player can be seen running from the monsters C,P and zz. He is exploring the dungeon and has collected some items in his inventory</p>
                 <img className='project-image' src={require('./Media/wearItems.jpg')}alt="Dead"/>
                 <p> Here is a view of the player's inventory. You can choose to wear, swap, or equip items.</p>
                 <img className='project-image' src={require('./Media/Dead.jpg')}alt="Dead"/>
