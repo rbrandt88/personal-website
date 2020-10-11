@@ -12,7 +12,7 @@ function MyCompany() {
       }, [])
     return (
         <>
-        <meta property="og:image" content="%PUBLIC_URL%/bold-192.png" />
+  
         <div className='my-company-background'>
             <div className='image-company-con'>
                 <div className='image-title-con'>
@@ -97,7 +97,7 @@ function MyCompany() {
                             <Link to='/book-finder'  className='project-link'> 
                                 <div className='project-card project-card-gray'>
                                         <div className='project-icon-con'>
-                                        <BsSearch className='project-icon'/>
+                                        <BsSearch className='r-icon'/>
                                         </div>
                                         <div className='project-text'>
                                             <p className='my-company-title-a'>Book Finder</p>
@@ -114,7 +114,7 @@ function MyCompany() {
                             <Link to='/large-scale-image-search' className='project-link'> 
                                 <div className='project-card project-card-gray'>
                                     <div className='project-icon-con'>
-                                        <BsImages className='project-icon'/>
+                                        <BsImages className='r-icon'/>
                                     </div>
                                     <div className='project-text'>
                                         <p className='my-company-title-a'>Large Scale Image Similarity Search</p>
@@ -128,7 +128,7 @@ function MyCompany() {
                             <Link to='/inventory-management-system'  className='project-link'>
                                 <div className='project-card project-card-gray'>
                                     <div className='project-icon-con'>
-                                        <RiBarcodeBoxLine className='project-icon'/>
+                                        <RiBarcodeBoxLine className='r-icon'/>
                                     </div>
                                     <div className='project-text'>
                                         <p className='my-company-title-a'>Inventory/ Accounting Management System</p>

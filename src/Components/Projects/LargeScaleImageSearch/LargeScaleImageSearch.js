@@ -93,7 +93,8 @@ const [dataToSend, setData] = useState(inicialDataToSend);
 
 
 function LargeScaleImageSearch() {
-    const apiEndPoint =    'http://localhost:5000/api/query'
+    const apiEndPoint = 'https://2130f88994d7.ngrok.io/api/query'
+    //const apiEndPoint =    'http://localhost:5000/api/query'
     const defaultImage = 'https://images-na.ssl-images-amazon.com/images/I/41JaGePfE3L._SX412_BO1,204,203,200_.jpg';
 
     const query1 = 'https://di2ponv0v5otw.cloudfront.net/posts/2019/01/01/5c2c5c5b3c98449c1098bfd5/m_5c2c5c651b3294a74539e66c.jpg';
