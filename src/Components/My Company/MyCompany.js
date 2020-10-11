@@ -12,6 +12,7 @@ function MyCompany() {
       }, [])
     return (
         <>
+        <meta property="og:image" content="%PUBLIC_URL%/bold-192.png" />
         <div className='my-company-background'>
             <div className='image-company-con'>
                 <div className='image-title-con'>
