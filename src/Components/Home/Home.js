@@ -4,21 +4,15 @@ import { Button} from '../Util/Button';
 import { Link } from 'react-router-dom';
 import {BiChevronDown } from 'react-icons/bi';
 import {
-    FaFacebook,
-    FaInstagram,
-    FaYoutube,
-    FaTwitter,
     FaClipboard,
     FaGraduationCap,
     FaLinkedin,
     FaGithub,
-    FaRegHandPointLeft,
     FaChartLine,
     FaGamepad
   } from 'react-icons/fa';
 
 import {BsImages, BsSearch} from 'react-icons/bs';
-import {GrGamepad} from 'react-icons/gr';
 import {RiBarcodeBoxLine} from 'react-icons/ri';
 import {GrMail} from 'react-icons/gr';
 
@@ -105,7 +99,7 @@ function Home() {
                                         <p className='school-name'>Python, Javascript, Java, C/C++, SQL</p>
 
                                         <h3 className='skils-content-text'>Full Stack Technologies</h3>
-                                        <p className='school-name'> React, HTML, CSS, Flask, Elasticsearch, Postgres SQL</p>
+                                        <p className='school-name'> React, HTML, CSS, Flask, Elasticsearch, PostgreSQL</p>
                                         <h3 className='skils-content-text'>Data Science</h3>
 
                                         <p className='school-name'>Numpy, Pandas, Matplotlib, Scikit-Learn, OpenCV, TenserFlow, Jupyter Lab</p>
@@ -123,7 +117,7 @@ function Home() {
                                 <div className='education-container-school'> 
                                     
                                     <h3 > <FaGraduationCap/> New York Institute of Technology| New York, NY </h3>
-                                    <h4>Graduating: fall 2021</h4>
+                                    <h4>Graduating: Dec 2021</h4>
                                     <p className='school-name'>MS in Data Science</p>
                                 </div>
                                 <div className='courses-dropdown'>

@@ -1,15 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import { Button} from '../Util/Button';
 import { Link } from 'react-router-dom';
 import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
+
   FaLinkedin,
   FaGithub,
-  FaRegHandPointLeft,
+
   FaClipboard
 } from 'react-icons/fa';
 import {GrMail} from 'react-icons/gr';
@@ -39,9 +35,7 @@ function Footer(){
                         <Link to="contact" className="footer-link">
                         <li>Contact</li>
                         </Link>
-                        <Link to="sign-in" className="footer-link">
-                        <li>Sign In</li>
-                        </Link>
+                     
                     </ul>
 
                 </div>

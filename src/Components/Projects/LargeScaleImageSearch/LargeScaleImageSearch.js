@@ -93,7 +93,7 @@ const [dataToSend, setData] = useState(inicialDataToSend);
 
 
 function LargeScaleImageSearch() {
-    const apiEndPoint = 'https://2130f88994d7.ngrok.io/api/query'
+    const apiEndPoint = 'http://4c3d9304b518.ngrok.io/api/query';
     //const apiEndPoint =    'http://localhost:5000/api/query'
     const defaultImage = 'https://images-na.ssl-images-amazon.com/images/I/41JaGePfE3L._SX412_BO1,204,203,200_.jpg';
 
@@ -136,7 +136,7 @@ function LargeScaleImageSearch() {
 
                                 //setData('/Users/ryanbrandt/Desktop/Website React Hooks/brandt-dev/src/Components/Projects/LargeScaleImageSearch/Media/campr2.jpg',);
                                 theData(query1);
-                                setImq(query1)
+                                setImq(query1);
                                 doFetch(
                                     apiEndPoint,
                                 );
@@ -148,7 +148,7 @@ function LargeScaleImageSearch() {
                             <img className='query-image' src={query2} alt="Chemistry"
                                 onClick={event => {
                                     //setData('/Users/ryanbrandt/Desktop/Website React Hooks/brandt-dev/src/Components/Projects/LargeScaleImageSearch/Media/chemcen.jpg');
-                                    theData(query2)
+                                    theData(query2);
                                     doFetch(
                                     apiEndPoint,
                                 );
@@ -159,9 +159,10 @@ function LargeScaleImageSearch() {
                             />
                             <img className='query-image' src={query3}alt="Art"
                                 onClick={event => {
-                                    setImq(query3)
+                                    setImq(query3);
                                     //setData('/Users/ryanbrandt/Desktop/Website React Hooks/brandt-dev/src/Components/Projects/LargeScaleImageSearch/Media/chemcen.jpg');
-                                    theData(query3)
+                                    theData(query3);
+                           
                                     doFetch(
                                     apiEndPoint,
                                 );
@@ -173,8 +174,9 @@ function LargeScaleImageSearch() {
                             <img className='query-image' src={query4}alt="Chem"
                                 onClick={event => { 
                                     //setData('/Users/ryanbrandt/Desktop/Website React Hooks/brandt-dev/src/Components/Projects/LargeScaleImageSearch/Media/chemcen.jpg');
-                                    theData(query4)
-                                    setImq(query4)
+                                    theData(query4);
+                            
+                                    setImq(query4);
                                     doFetch(
                                     apiEndPoint,
                                 );
@@ -189,11 +191,11 @@ function LargeScaleImageSearch() {
                 
                             <form onSubmit={event => {
                   
-                                setImq(query,);
+                                setImq(query);
                              
                                 theData(query);
                                 doFetch(
-                                    'http://localhost:5000/api/query',
+                                  apiEndPoint,
                                 );
                                     event.preventDefault();
                                     console.log("Query: " + query);
@@ -228,7 +230,7 @@ function LargeScaleImageSearch() {
                             <h2>Query Image:</h2>
                             
                             {console.log(data)}
-                            <img className='result-image' src={imq} alt="Query Image"/>
+                            <img className='result-image' src={imq} alt='Query'/>
                             <p>Seconds: {totalTime}</p>
                             
                             </div>) : 
@@ -296,7 +298,7 @@ function LargeScaleImageSearch() {
                 
                 The new vectors are fit into minibatch kmeans where a suggested 128 clusters are used.
                 The descriptors are again run through the VLAD creation process to produce a single global descriptor for the image.
-                In order to reduce the memory footprint, PCA is used. The VLAD descriptors can be reduced to 128 dimensions with PCA without much loss of accuracy.
+                In order to reduce the memory footprint, PCA is used. The VLAD descriptors can be reduced to 128 dimensions with PCA without much loss of accuracy;however, it is not recommended if you want the greatest accuracy.
                 The resulting VLADs are stored in Facebook's Faiss for fast approximate nearest neighbor search.
                 At run time, the query image is run through the same processing and queried in Faiss.   
                 Similar images are returned and run through one last accuracy ranking. For this, KNN and RANSAC are used.

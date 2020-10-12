@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
 import './Contact.css';
-import { Button} from '../Util/Button';
 import { Link } from 'react-router-dom';
 import {GrMail} from 'react-icons/gr';
 

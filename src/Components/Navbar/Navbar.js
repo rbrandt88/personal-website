@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes, FaBold,} from 'react-icons/fa';
+import { FaBars, FaTimes, } from 'react-icons/fa';
 import {BiChevronDown } from 'react-icons/bi';
 import { Button} from '../Util/Button';
 import './Navbar.css';

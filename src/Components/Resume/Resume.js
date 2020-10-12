@@ -2,8 +2,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import './Resume.css';
-import { Document, Page, pdfjs } from "react-pdf";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 
 function Resume() {

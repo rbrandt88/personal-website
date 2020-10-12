@@ -1,7 +1,5 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
+
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
