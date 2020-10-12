@@ -93,7 +93,7 @@ const [dataToSend, setData] = useState(inicialDataToSend);
 
 
 function LargeScaleImageSearch() {
-    const apiEndPoint = 'https://4c3d9304b518.ngrok.io/api/query';
+    const apiEndPoint = 'https://03f6d45467e3.ngrok.io/api/query';
     //const apiEndPoint =    'http://localhost:5000/api/query'
     const defaultImage = 'https://images-na.ssl-images-amazon.com/images/I/41JaGePfE3L._SX412_BO1,204,203,200_.jpg';
 
@@ -274,10 +274,11 @@ function LargeScaleImageSearch() {
                 
                 <h2>Key Learning Objectives</h2>
                 <ul>
-                    <li>Computer Vision with OpenCV</li>
-                    <li>Machine Learning Techniques with Scikit-Learn (K-Means, KNN, ANN, PCA)</li>
+                    <li>Computer Vision techniques with OpenCV (SIFT, RANSAC, Filtering, VLAD)</li>
+                    <li>Machine Learning techniques with Scikit-Learn (K-Means, KNN, ANN, PCA)</li>
                     <li>API developement</li>
                     <li>Front end design with React, HTML, CSS</li>
+                    <li>Implementing research papers</li>
                 
                 </ul>
                 <hr></hr>
@@ -317,6 +318,15 @@ function LargeScaleImageSearch() {
                 With foreground extraction, we can denoise the image and focus only on the book because background noise can significantly hurt its accuracy.
                 In the future, I plan to use a pretrained Convolutional Nural Network (MobileNet v2) and finetune it for my dataset. PCA has been shown to reduce dimensions to 64 without much loss in accuracy. 
                     With greater accuracy and smaller memory footprint, this seems like the next way to go. The method could even be light enough to match images on the phone with Tenserflow Lite! </p>
+                <hr></hr>
+                <h2>Research Papers</h2>
+                <ul>
+                    <li><a href='https://www.robots.ox.ac.uk/~vgg/publications/2013/arandjelovic13/arandjelovic13.pdf'>All About VLAD</a> </li>
+                    <li> <a href= 'https://hal.inria.fr/hal-00840653v1/document'> Revisiting the VLAD image representation</a></li>
+                    <li> <a href= 'https://hal.inria.fr/inria-00514760/document'> Improving bag-of-features for large scale image search </a> </li>
+                    <li> <a href='https://ieeexplore.ieee.org/abstract/document/8733051'> Billion-scale similarity search with GPUs (about Faiss) </a></li>
+                
+                </ul>
                 
                 </div>
             </div>
