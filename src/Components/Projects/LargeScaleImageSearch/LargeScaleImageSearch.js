@@ -98,7 +98,7 @@ function LargeScaleImageSearch() {
     const defaultImage = 'https://images-na.ssl-images-amazon.com/images/I/41JaGePfE3L._SX412_BO1,204,203,200_.jpg';
 
     const query1 = 'https://di2ponv0v5otw.cloudfront.net/posts/2019/01/01/5c2c5c5b3c98449c1098bfd5/m_5c2c5c651b3294a74539e66c.jpg';
-    const query2 = 'https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/106021025_2580238942238639_8330172672987393434_o.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_ohc=oi5TCLj-HVAAX-p_EMG&_nc_ht=scontent-lga3-2.xx&oh=a1feaffabde66f80ad747bacf04fe161&oe=5FA1E9F0';
+    const query2 = 'https://storage.bhs.cloud.ovh.net/v1/AUTH_e7d15450bedd40b9b599e075527df3cb/syracuse/fChemistry_The_Central_Science_14th_Editi_5f43b79522181.jpg'
     const query3 = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqt5Y59Z2673zPWt8CDtgFdlNEENMcSIFIiQ&usqp=CAU';
     const query4 = 'https://i.ebayimg.com/images/g/I5kAAOSw171fb73T/s-l1600.jpg';
 
